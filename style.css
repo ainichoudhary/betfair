@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+/** { outline: 1px solid red; }*/
+
+.navbar {
+    background: #ffb80c;
+    padding: 5px 220px 5px 220px;
+    position: relative;
+    /*outline: 1px solid red;*/
+}
+
+.navbar .container-fluid form {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .container-fluid form .nav-right-side {
+    color: black;
+}
+
+.navbar .container-fluid form .nav-right-side a {
+    color: #18181a;
+    text-decoration: none;
+}
+
+.navbar .container-fluid form .nav-right-side .tag1 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    /*color:rgba(24,24,26,.37);*/
+    color: #18181a;
+}
+
+.navbar .container-fluid form .nav-right-side .tag2 {
+    font-size: 12px;
+    font-weight: 600;
+    /*line-height: 20px;*/
+    color: #18181a;
+}
+
+.container-fluid form .logo-right-img {
+    height: 24px;
+    width: 24px;
+}
+
+/*----------------------------------------Main-section*/
+.big-picture {
+    padding-left: 230px;
+    padding-right: 230px;
+    gap: 20px;
+
+}
+
+#Main-section {
+    width: 100%;
+    /*position: absolute;*/
+}
+
+/*-----------Section-banner*/
+#Main-section .Section-banner {
+    padding: 12px 220px 0 0;
+
+}
+
+#Main-section .Section-banner .step-1 {
+    color: #18181a;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+#Main-section .Section-banner .step-2 {
+    color: rgba(24, 24, 26, .37);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*<!--    -------------------------------------------------------------------Section-Column-->*/
+#Section_colum {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.account-Detail .detail-title {
+    padding-bottom: 20px;
+}
+
+.input-addition img {
+    float: right;
+    padding: 15px 20px 0 0;
+}
+
+#Section_colum .account-Detail {
+    margin-right: 65px;
+    margin-block-end: auto;
+}
+
+#Section_colum .your-title {
+    font-size: 20px;
+    color: #18181a;
+    line-height: 24px;
+    font-weight: bolder;
+}
+
+#Section_colum .detail-title {
+    font-size: 20px;
+    color: #18181a;
+    line-height: 24px;
+    font-weight: bolder;
+}
+
+#Main-section #Section_colum .Info p {
+    font-size: 12px;
+    padding: 10px 0 20px 0;
+    font-weight: 500;
+}
+
+.gender-selection input {
+    width: 22px;
+    height: 22px;
+    border-radius: 12px;
+
+}
+
+.gender-selection {
+    display: flex;
+    gap: 32px;
+    margin-top: 16px;
+}
+
+.gender-selection .form-check-input:checked {
+    border: 1px solid #219727;
+    background: #D4EAD4 url('image/radio-fill.svg');
+}
+
+.gender-selection label {
+    vertical-align: middle;
+}
+
+.gender-selection .form-check-label {
+    margin-left: 16px;
+}
+
+/*--------------------Input Field*/
+.First-name input {
+    border: none;
+    width: 100%;
+    background: #F0F0F1;
+    padding: 0 0 0 12px;
+    height: 48px;
+    font-size: 16px;
+    outline: none;
+
+}
+
+.First-name :focus {
+    border-bottom: 1px solid #ffb80c;
+}
+
+.First-name input:focus::placeholder {
+    /*color: transparent;*/
+    font-size: .75em;
+    position: relative;
+    top: -15px;
+    transition: 0.2s ease-out;
+
+}
+
+.input-addition {
+    background: #F0F0F1;
+    padding: 0 0 0 12px;
+    margin-top: 20px;
+
+}
+
+.transparent {
+
+    padding: 0 0 20px 12px;
+    margin-top: 20px;
+    height: 48px;
+    border: 1px solid #F0F0F1;
+
+
+}
+
+.transparent svg {
+
+    margin-left: 104px;
+}
+
+.transparent input {
+    border: none;
+    height: 48px;
+    outline: none;
+}
+
+.addition {
+    border: 1px solid #F0F0F1;
+    background: #F0F0F1;
+    padding: 0 0 0 12px;
+    margin-top: 20px;
+    height: 48px;
+    border-bottom: 1px solid #4BC244;
+    display: flex;
+    align-items: center;
+    /*justify-content:space-evenly;*/
+
+}
+
+/*.addition a{*/
+/*    font-size: 12px;*/
+/*    font-weight: 400;*/
+
+/*}*/
+/*.addition input{*/
+/*    border: none;*/
+/*    background: #F0F0F1;*/
+/*    outline: none;*/
+/*    cursor: pointer;*/
+/*    height: 45px;*/
+/*}*/
+.addition a {
+    font-size: 10px;
+    font-weight: 400;
+    padding-bottom: 32px;
+
+}
+
+/*.First-name select{*/
+
+/*    background: #F0F0F1;*/
+/*    outline: none;*/
+/*    cursor: pointer;*/
+/*    height: 22px;*/
+/*    margin-left: -42px;*/
+/*    padding-top: 3px;*/
+/*    border: none;*/
+/*}*/
+.addition select {
+    border: none;
+    background: #F0F0F1;
+    outline: none;
+    cursor: pointer;
+    height: 22px;
+    margin-left: -42px;
+    padding-top: 3px;
+    width: 327px;
+}
+
+.addition .Account {
+    border: none;
+    background: #F0F0F1;
+    outline: none;
+    cursor: pointer;
+    height: 22px;
+    width: 315px;
+    margin-left: -116px;
+    padding-top: 3px;
+}
+
+.addition .security {
+    border: none;
+    background: #F0F0F1;
+    outline: none;
+    cursor: pointer;
+    height: 22px;
+    width: 315px;
+    margin-left: -85px;
+    padding-top: 3px;
+}
+
+.input-addition input {
+    border: none;
+    background: #F0F0F1;
+    height: 48px;
+    outline: none;
+
+}
+
+.addition svg {
+    background: #F0F0F1;
+    margin-left: 104px;
+}
+
+.Input-field .First-name {
+    padding-top: 20px;
+}
+
+.mid-note {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(24, 24, 26, .5);
+    padding-top: 12px;
+}
+
+.phone-number {
+    border: none;
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.phone-number .code {
+    background: #F0F0F1;
+    width: 30%;
+    height: 48px;
+    padding-top: 8px;
+    border-bottom: 1px solid #4BC244;
+
+}
+
+.phone-number .code img {
+    width: 26px;
+    height: 23px;
+}
+
+.phone-number .phone {
+    width: 80%;
+    height: 48px;
+    background: #F0F0F1;
+    padding-top: 8px;
+
+}
+.phone :focus {
+    border-bottom: 1px solid #ffb80c;
+}
+
+.phone-number .phone input {
+    background: #F0F0F1;
+    border: none;
+    padding-right: 66px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.phone-number input:focus::placeholder {
+    font-size: .75em;
+    position: relative;
+    top: -8px;
+    transition: 0.2s ease-out;
+
+}
+.phone-number select{
+    width: 62px;
+    background: #F0F0F1;
+    outline: none;
+    border: none;
+    padding-top: 1px;
+}
+
+.main-section-img {
+    margin-top: 49px;
+}
+
+/*-------Account detail*/
+.account-Detail {
+    padding-top: 0;
+}
+
+.deposit {
+    color: #18181a;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.btn {
+    width: 100%;
+    height: 48px;
+    background: #FEB70C;
+    color: #C48214;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.btn:hover{
+    width: 100%;
+    height: 48px;
+    background: #FEB70C;
+    color: #C48214;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 1px solid #C48214;
+}
+
+.question {
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #185FD9;
+}
+
+.end-note {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 20px;
+    color: #18181a;
+    line-height: 16px;
+}
+
+.end-note .link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #185fd8;
+}
+
+/*footer*/
+/*.footer-line{*/
+/*    padding: 0 555px 0 230px;*/
+/*}*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*margin-right: 25px;*/
+    /*padding-right: 230px;*/
+    /*padding-left: 230px;*/
+}
+
+.footer-info {
+    background: #FFFFFFFF;
+    padding: 0 0 0 12px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px 3px #F0F0F1;
+    border: 1px solid #F0F0F1;
+
+}
+
+.footer-info img {
+    float: right;
+    padding: 15px 20px 0 0;
+}
+
+.footer-info input {
+    border: none;
+    background: #FFFFFFFF;
+    height: 48px;
+    width: 297px;
+    outline: none;
+cursor: pointer;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer span {
+    padding-right: 270px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 10px;
+    color: #18181a;
+}
+
+@media all and (max-width: 768px) {
+    /* For mobile phones: */
+    .navbar {
+        padding: 0;
+        height: 34px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #Section_colum {
+        position: absolute;
+        margin-left: 30px;
+        gap: 51px;
+
+    }
+}
+
+@media all and (max-width: 768px) {
+    .big-picture {
+        padding-left: 0;
+        padding-right: 0;
+        gap: 0;
+
+    }
+}
+
+@media all and (max-width: 768px) {
+    .Section-banner .step-1 {
+        position: absolute;
+        padding: 0;
+        margin-left: 16px;
+
+    }
+}
+
+@media all and (max-width: 768px) {
+    .Section-banner .step-2 {
+        position: absolute;
+        padding: 0;
+        margin-left: 155px;
+
+
+    }
+}
+
+@media all and (max-width: 768px) {
+    .nav-right-side {
+        position: absolute;
+        padding: 0;
+        margin-left: 58px;
+        display: none;
+
+    }
+}
+
+@media all and (max-width: 768px) {
+    .nav-right-info {
+        position: absolute;
+        padding: 0;
+        margin-left: 12px;
+    }
+}
+@media all and (max-width: 768px) {
+    .tag1 {
+       display: none;
+    }
+    .tag2{
+        display: none;
+    }
+    .logo-right-img{
+        display: none;
+    }
+    .nav-right-info svg{
+        display: none;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .main-section-img {
+        /*position: absolute;*/
+        padding: 0;
+        display: none;
+
+    }
+}
+
+@media all and (max-width: 768px) {
+    .footer {
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+     hr {
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .account-Detail {
+        display: none;
+    }
+}
+
+

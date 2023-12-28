@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>Activity</title>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Betfair</title>
+</head>
+<body>
+<!------------------------------------- navbar-->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <img class="log-left-img" src="image/logo-desktop.svg"/>
+        <form class="d-flex" role="search">
+            <div class="nav-right-side d-flex">
+                <a class="tag1"> Already a member?</a>
+                <a class="tag2"> Log in here </a>
+            </div>
+            <div class="nav-right-info">
+                <img class="logo-right-img" src="image/right-logo.svg"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                    <path d="M0 0L18.69 0L18.69 18.69L0 18.69L0 0Z" fill="white" fill-opacity="0.01"/>
+                    <path d="M14.4069 7.00879L9.73439 11.6813L5.06189 7.00879" stroke="#6D6D6D" stroke-width="1.5575"
+                          stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </form>
+    </div>
+</nav>
+
+<!--------------------------------------------------------Section-->
+<div class="big-picture d-flex align-item-center justify-content-between">
+
+    <div id="Main-section">
+        <!--    -----------------------Section Banner-->
+        <div class="Section-banner d-flex align-item-center justify-content-space-between">
+            <div class="step-1">
+                Step 1: Sign-up &nbsp; >
+            </div>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <div class="step-2">
+                Step 2: Add funds and play
+            </div>
+        </div>
+        <hr/>
+
+        <!--    -------------------------------------------------------------------Section-Column-->
+        <div id="Section_colum">
+            <!--        ----------------------------Your information-->
+            <div class="Info">
+                <div class="your-title">Your Details</div>
+                <p>Please make sure your details are accurate so we can<br>create your account and verify your identity
+                    quickly.</p>
+                <a>Gender</a>
+                <div class="gender-selection">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Male
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                               checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Female
+                        </label>
+                    </div>
+                </div>
+
+                <!--                ------------------------Input field-->
+                <div class="Input-field">
+                    <div class="First-name">
+                        <input type="text" id="lname" name="lname" placeholder="First name">
+                    </div>
+
+                    <div class="First-name">
+                        <input type="text" id="lname" name="lname" placeholder="Last name">
+                    </div>
+
+                    <div class="input-addition">
+                        <input type="text" placeholder="Date of birth">
+                        <img src="image/dobicon.svg">
+                    </div>
+                    <p class="mid-note">You must be over 18 to bet with us. If we can't verify your age<br>
+                        electronically, we will require documents to verify your age.</p>
+
+                    <div class="addition">
+                        <a>Country</a>
+                        <select>
+                            <option value="AF">Afghanistan</option>
+                            <option value="AX">Åland Islands</option>
+                            <option value="AL">Albania</option>
+                            <option value="DZ">Algeria</option>
+                            <option value="AS">American Samoa</option>
+                            <option value="AD">Andorra</option>
+                            <option value="AO">Angola</option>
+                            <option value="AI">Anguilla</option>
+                            <option value="AQ">Antarctica</option>
+                            <option value="AG">Antigua and Barbuda</option>
+                            <option value="AR">Argentina</option>
+                            <option value="AM">Armenia</option>
+                            <option value="AW">Aruba</option>
+                            <option value="AU">Australia</option>
+                            <option value="AT">Austria</option>
+                            <option value="AZ">Azerbaijan</option>
+                            <option value="BS">Bahamas</option>
+                            <option value="BH">Bahrain</option>
+                            <option value="BD">Bangladesh</option>
+                            <option value="BB">Barbados</option>
+                            <option value="BY">Belarus</option>
+                            <option value="BE">Belgium</option>
+                            <option value="BZ">Belize</option>
+                            <option value="BJ">Benin</option>
+                            <option value="BM">Bermuda</option>
+                            <option value="BT">Bhutan</option>
+                            <option value="BO">Bolivia, Plurinational State of</option>
+                            <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                            <option value="BA">Bosnia and Herzegovina</option>
+                            <option value="BW">Botswana</option>
+                            <option value="BV">Bouvet Island</option>
+                            <option value="BR">Brazil</option>
+                            <option value="IO">British Indian Ocean Territory</option>
+                            <option value="BN">Brunei Darussalam</option>
+                            <option value="BG">Bulgaria</option>
+                            <option value="BF">Burkina Faso</option>
+                            <option value="BI">Burundi</option>
+                            <option value="KH">Cambodia</option>
+                            <option value="CM">Cameroon</option>
+                            <option value="CA">Canada</option>
+                            <option value="CV">Cape Verde</option>
+                            <option value="KY">Cayman Islands</option>
+                            <option value="CF">Central African Republic</option>
+                            <option value="TD">Chad</option>
+                            <option value="CL">Chile</option>
+                            <option value="CN">China</option>
+                            <option value="CX">Christmas Island</option>
+                            <option value="CC">Cocos (Keeling) Islands</option>
+                            <option value="CO">Colombia</option>
+                            <option value="KM">Comoros</option>
+                            <option value="CG">Congo</option>
+                            <option value="CD">Congo, the Democratic Republic of the</option>
+                            <option value="CK">Cook Islands</option>
+                            <option value="CR">Costa Rica</option>
+                            <option value="CI">Côte d'Ivoire</option>
+                            <option value="HR">Croatia</option>
+                            <option value="CU">Cuba</option>
+                            <option value="CW">Curaçao</option>
+                            <option value="CY">Cyprus</option>
+                            <option value="CZ">Czech Republic</option>
+                            <option value="DK">Denmark</option>
+                            <option value="DJ">Djibouti</option>
+                            <option value="DM">Dominica</option>
+                            <option value="DO">Dominican Republic</option>
+                            <option value="EC">Ecuador</option>
+                            <option value="EG">Egypt</option>
+                            <option value="SV">El Salvador</option>
+                            <option value="GQ">Equatorial Guinea</option>
+                            <option value="ER">Eritrea</option>
+                            <option value="EE">Estonia</option>
+                            <option value="ET">Ethiopia</option>
+                            <option value="FK">Falkland Islands (Malvinas)</option>
+                            <option value="FO">Faroe Islands</option>
+                            <option value="FJ">Fiji</option>
+                            <option value="FI">Finland</option>
+                            <option value="FR">France</option>
+                            <option value="GF">French Guiana</option>
+                            <option value="PF">French Polynesia</option>
+                            <option value="TF">French Southern Territories</option>
+                            <option value="GA">Gabon</option>
+                            <option value="GM">Gambia</option>
+                            <option value="GE">Georgia</option>
+                            <option value="DE">Germany</option>
+                            <option value="GH">Ghana</option>
+                            <option value="GI">Gibraltar</option>
+                            <option value="GR">Greece</option>
+                            <option value="GL">Greenland</option>
+                            <option value="GD">Grenada</option>
+                            <option value="GP">Guadeloupe</option>
+                            <option>Pakistan</option>
+                        </select>
+                    </div>
+                    <!--                    </div>-->
+
+                    <div class="First-name">
+                        <input type="text" id="lname" name="lname" placeholder="Address">
+                    </div>
+
+
+                    <div class="First-name">
+                        <input type="text" id="lname" name="lname" placeholder="Town / City">
+                    </div>
+
+
+                    <div class="First-name">
+                        <input type="text" id="lname" name="lname" placeholder="Postcode (Optional)">
+                    </div>
+
+                    <div class="phone-number">
+                        <div class="code">
+                            <img src="image/PK.svg"/>
+                            <select>
+                                <option data-countryCode="PK" value="92">+92</option>
+                                <option data-countryCode="DZ" value="213">+213</option>
+                                <option data-countryCode="AD" value="376">+376</option>
+                                <option data-countryCode="AO" value="244">+244</option>
+                                <option data-countryCode="AI" value="1264">+1264</option>
+                                <option data-countryCode="CN" value="86">+86</option>
+                                <option data-countryCode="HN" value="504">+504</option>
+                                <option data-countryCode="OM" value="968">+968</option>
+                                <option data-countryCode="SA" value="966">+966</option>
+                                <option data-countryCode="ZM" value="260">+260</option>
+                                <option data-countryCode="ZW" value="263">+263</option>
+                            </select>
+                        </div>
+                        <div class="phone">
+                            <input type="text" id="lname" name="lname" placeholder="Mobile number">
+                        </div>
+
+                    </div>
+                    <p class="mid-note">Please enter a contact phone number. In case you forget your<br>
+                        password we can send information to this number to help you<br>
+                        access your account.</p>
+                </div>
+            </div>
+
+
+            <!--    ---------------------------Account-Detail-->
+            <div class="account-Detail">
+                <div class="detail-title">Account Details</div>
+                <div class="First-name">
+                    <input type="text" id="lname" name="lname" placeholder="Email address">
+                </div>
+
+                <div class="input-addition">
+                    <input type="text" placeholder="Password">
+                    <img src="image/eye.svg">
+                </div>
+
+                <div class="addition">
+                    <a>Security question</a>
+                    <select class="security">
+                        <option>Father's first name?</option>
+                        <option>Mother's first name?</option>
+                        <option>First school?</option>
+                        <option>Mother's maiden name?</option>
+                    </select>
+                </div>
+
+
+                <div class="input-addition">
+                    <input type="text" placeholder="Security answer">
+                </div>
+
+                <div class="addition">
+                    <a>Betfair Account Currency</a>
+                    <select class="Account">
+                        <option>US Dollar (USD)</option>
+                        <option>UK sterling(GBP)</option>
+                        <option>Euro (EUR)</option>
+                        <option>Danish kroner (DKK)</option>
+                    </select>
+
+                </div>
+
+                <p class="mid-note">Currency selection is permanent, it cannot be changed later.</p>
+                <div class="deposit">
+                    Deposit Limit
+                </div>
+
+                <p class="mid-note">
+                    Set a limit on the amount you can deposit for a period you<br>
+                    choose. This will reset at the end of each period.
+                </p>
+
+                <div class="First-name">
+                    <input type="text" id="lname" name="lname" placeholder="Time Period">
+<!--                    <select>-->
+<!--                        <option>select</option>-->
+<!--                        <option>No limit</option>-->
+<!--                        <option>Daily</option>-->
+<!--                        <option>Weekly</option>-->
+<!--                        <option>Monthly</option>-->
+<!--                    </select>-->
+                </div>
+
+<!--                <div class="addition">-->
+<!--                    <a>Time period</a>-->
+<!--                    <select class="security">-->
+<!--                        <option>Select</option>-->
+<!--                        <option>No limit</option>-->
+<!--                        <option>Daily</option>-->
+<!--                        <option>Weekly</option>-->
+<!--                        <option>Monthly</option>-->
+<!--                    </select>-->
+<!--                </div>-->
+
+                <div class="transparent">
+                    <input type="text" placeholder="Limit amount (USD)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                        <path d="M0 0L18.69 0L18.69 18.69L0 18.69L0 0Z" fill="white" fill-opacity="0.01"/>
+                        <path d="M14.4069 7.00879L9.73439 11.6813L5.06189 7.00879" stroke="#6D6D6D"
+                              stroke-width="1.5575"
+                              stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <br>
+                <h1 class="question">Do you have promoCode?</h1>
+                <button class="btn">Sign up</button>
+                <p class="end-note">By proceeding to open an account:<br>
+                    <br>
+                    I accept Betfair's <a class="link">Terms and Conditions.</a> I have read and<br> understood
+                    Betfair's
+                    <a class="link"> Privacy Policy</a> & as published on the site<br>
+                    and confirm <a class="link">I am 18 years of age or over</a></p>
+            </div>
+        </div>
+<hr>
+<div class="footer">
+
+    <div class="footer-left">
+        <span>Help & Contact</span>
+
+        <div class="footer-info">
+            <input type="text" placeholder="Help & Contact">
+            <img src="image/arrow-link.svg">
+        </div>
+    </div>
+    <div class="footer-right">
+        <span>Safer Gambling</span>
+
+        <div class="footer-info">
+            <input type="text" placeholder="Find out more about safer Gambling">
+            <img src="image/arrow-link.svg">
+        </div>
+
+    </div>
+
+</div>
+
+    </div>
+
+    <!--       ---------------------------------------------- main-section-img-->
+    <div class="main-section-img">
+        <img src="image/sectionwebp.webp"/>
+    </div>
+</div>
+
+
+</body>
+</html>
